@@ -1,0 +1,135 @@
+<!-- trigger pages -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Educational Website - WordPress</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+    }
+
+    .info {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+
+    .info h2 {
+      margin-top: 0;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-right: 10px;
+      font-weight: bold;
+    }
+
+    .grid-screenshots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 30px;
+      justify-items: center;
+    }
+
+    .screenshot img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: contain;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .screenshot h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media screen and (max-width: 768px) {
+      .grid-screenshots {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📚 Educational Website – WordPress</h1>
+    <p>Built with WordPress | Hosted at FreshMoo</p>
+  </header>
+
+  <div class="container">
+
+    <div class="info">
+      <h2>🔍 Project Overview</h2>
+      <p>This is an educational website built using WordPress CMS to demonstrate features like blog publishing, user interaction, contact forms, and structured navigation.</p>
+      <ul>
+        <li>🔧 Built using: WordPress, Astra Theme, Elementor</li>
+        <li>📂 Pages: Home, Courses, Blog, Contact</li>
+        <li>🌐 Hosting: <a href="https://rudra.freshmoo.in/" target="_blank">rudra.freshmoo.in</a></li>
+      </ul>
+
+      <div class="buttons">
+        <a href="https://rudra.freshmoo.in/" target="_blank">🔗 Live Website</a>
+        <a href="https://github.com/Rudra7867/educational-website" target="_blank">💻 GitHub Repo</a>
+      </div>
+    </div>
+
+    <div class="grid-screenshots">
+      <div class="screenshot">
+        <h2>📸 Homepage</h2>
+        <img src="images/homepage.png" alt="Homepage Screenshot">
+      </div>
+      <div class="screenshot">
+        <h2>📸 Courses Page</h2>
+        <img src="images/courses.png" alt="Courses Screenshot">
+      </div>
+      <div class="screenshot">
+        <h2>📸 Contact Page</h2>
+        <img src="images/contact.png" alt="Contact Screenshot">
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Rudra Krishna | Email: rudrakrishna785@gmail.com
+  </footer>
+
+</body>
+</html>
